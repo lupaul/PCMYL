@@ -1,6 +1,6 @@
 <!-- public navbar -->
 <ul class="nav navbar-nav navbar-right">
-	<li><a href="<%= about_path %>">關於我們</a></li>
-	<li><a href="<%= services_path %>">服務</a></li>
-	<li><a href="<%= contact_path %>">聯絡我們</a></li>
+	<%= nav_li "關於我們", about_path %>
+	<%= nav_li "服務", services_path %>
+	<%= nav_li "聯絡我們", contact_path %>
 </ul>
