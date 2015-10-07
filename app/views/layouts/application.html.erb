@@ -8,13 +8,20 @@
 </head>
 <body>
 	<nav class="navbar navbar-default" role="navigation">
-	  <div class="container-fluid">
-	    <div class="navbar-header">
-	      <a class="navbar-brand" href="#">
-	        Lunch
-	      </a>
-	    </div>
-	  </div>
+		<div class="container-fluid">
+		    <div class="navbar-header">
+		      <a class="navbar-brand" href="home">
+		        Lunch
+		      </a>
+		    </div>
+		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		    	<ul class="nav navbar-nav navbar-right">
+		     		<li><a href="about">關於我們</a></li>
+		        	<li><a href="services">服務</a></li>
+		        	<li><a href="contact">聯絡我們</a></li>
+		    	</ul>
+		  	</div><!-- /.navbar-collapse -->
+		</div>
 	</nav>
 
 <%= yield %>
