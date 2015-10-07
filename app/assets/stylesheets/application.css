@@ -13,3 +13,7 @@
  *= require_tree .
  *= require_self
  */
+
+.yield_container{
+	padding-top:  2.5em;
+}
