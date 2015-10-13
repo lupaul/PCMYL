@@ -1,4 +1,4 @@
-# PCMYL
+LOWMAP
 實踐大學學生社群
 
 今晚吃什麼?
@@ -6,3 +6,6 @@
 
 成員：
 Weifan
+JL
+MikeThai帥帥
+Rita
